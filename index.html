@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar">
+        <div class="logo">Mita_dev</div>
+        <nav>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero" id="home">
+        <video autoplay muted loop class="video">
+          <source src="./image/45961-447087612_small.mp4" type="video/mp4" />
+        </video>
+        <div class="left">
+          <h3>Hello, I'm</h3>
+          <h1 class="floating-title">Le Thi Minh Tam</h1>
+          <p>
+            I'm a sophomore at FPT University, majoring in Software Engineering,
+            passionate about programming and eager to learn. I possess flexible
+            skills at work and a high sense of responsibility, I am always ready
+            to support others and resolve conflicts with a positive attitude.
+          </p>
+
+          <div class="contactLogo">
+            <div class="logoFacebook">
+              <a href="https://www.facebook.com/tam.minh.448043/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </div>
+            <div class="logoInstagram">
+              <a href="https://www.instagram.com/miita._06/?hl=en"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <div class="logogithub">
+              <a href="https://github.com/lethiminhtam072006-sudo"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="avatar-frame">
+            <img src="./image/avatar.jpg" alt="avatar" />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1 class="section-title">Skills</h1>
+
+        <div class="skills-container">
+          <!-- TECH STACK -->
+          <h2 class="skill-subtitle">Tech Stack</h2>
+          <div class="skills">
+            <div class="skill">
+              <img src="./image/htm,l.png" class="skill-icon" />
+              HTML
+            </div>
+
+            <div class="skill">
+              <img
+                src="./image//css-removebg-preview (1).png"
+                class="skill-icon"
+              />
+              CSS
+            </div>
+
+            <div class="skill">
+              <img
+                src="./image/js-removebg-preview (1).png"
+                class="skill-icon"
+              />
+              JavaScript
+            </div>
+
+            <div class="skill">
+              <img src="./image/git-removebg-preview.png" class="skill-icon" />
+              GitHub
+            </div>
+          </div>
+
+          <!-- PROGRAMMING LANGUAGES -->
+          <h2 class="skill-subtitle">Programming Languages</h2>
+          <div class="skills">
+            <div class="skill">
+              <img src="./image/c-programe.webp" class="skill-icon" />
+              C
+            </div>
+            <div class="skill">
+              <img src="./image/java-removebg-preview.png" class="skill-icon" />
+              Java
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <h1 class="section-title">Project</h1>
+        <!-- <div>
+          <h3>In progress</h3>
+          <h4>MemeShirt</h4>
+          <p>giúp người dùng có thề tự thiết kế áo theo ý thích bằng AI</p>
+        </div> -->
+        <div class="project_container">
+          <div class="project-card">
+            <div class="card-header">
+              <h3>MemeShirt</h3>
+              <span class="status-badge">🚧 In Progress 50%</span>
+            </div>
+
+            <div class="project-role">
+              <strong>Role:</strong> Frontend Developer (Team of 5)
+            </div>
+
+            <p class="card-desc">
+              Build user interface (UI) for T-shirt design application using AI.
+              Responsible for converting design to code, handling interactions
+              and displaying data from Backend.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML5/CSS3</span>
+              <span>JavaScript</span>
+              <span>Git/Github</span>
+              <span>RESTful API</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="section-title">Contact</h1>
+        <span> HOTLINE </span>
+        <div class="info">
+          <ul>
+            <li><strong>Phone:</strong> 0815156094</li>
+            <li><strong>Email:</strong> lethiminhtam072006@gmail.com</li>
+            <li>
+              <strong>Hometown Address:</strong>
+              Ha Nam District, Lam Dong Province, Vietnam
+            </li>
+            <li>
+              <strong>Current Address:</strong> CT2, Sky9 Tower, Thu Duc
+              District, Ho Chi Minh City, Viet Nam
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="./style.js"></script>
+  </body>
+</html>
